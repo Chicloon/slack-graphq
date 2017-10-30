@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/Chicloon/slack-graphq/issues"
   },
-  "homepage": "https://github.com/Chicloon/slack-graphq#readme"
+  "homepage": "https://github.com/Chicloon/slack-graphq#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2", 
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.6.1",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
